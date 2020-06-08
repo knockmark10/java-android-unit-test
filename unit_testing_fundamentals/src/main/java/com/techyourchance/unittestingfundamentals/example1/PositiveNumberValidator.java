@@ -3,7 +3,8 @@ package com.techyourchance.unittestingfundamentals.example1;
 public class PositiveNumberValidator {
 
     public boolean isPositive(int number) {
-        return number >= 0;
+        // The bug here is accidentally hardcoded the return value
+        return false;
     }
 
 }
