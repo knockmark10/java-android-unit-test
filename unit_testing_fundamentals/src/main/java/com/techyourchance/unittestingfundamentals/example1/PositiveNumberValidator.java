@@ -4,7 +4,7 @@ public class PositiveNumberValidator {
 
     public boolean isPositive(int number) {
         // The bug here is accidentally hardcoded the return value
-        return false;
+        return number > 0;
     }
 
 }
