@@ -34,7 +34,6 @@ public class LoginUseCaseSync {
             return UseCaseResult.NETWORK_ERROR;
         }
 
-
         if (isSuccessfulEndpointResult(endpointEndpointResult)) {
             mAuthTokenCache.cacheAuthToken(endpointEndpointResult.getAuthToken());
             mEventBusPoster.postEvent(new LoggedInEvent());
@@ -45,6 +44,7 @@ public class LoginUseCaseSync {
     }
 
     private boolean isSuccessfulEndpointResult(LoginHttpEndpointSync.EndpointResult endpointResult) {
+        //bug here is false report of success endpoint
         return endpointResult.getStatus() == LoginHttpEndpointSync.EndpointResultStatus.SUCCESS;
     }
 }

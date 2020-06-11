@@ -1,7 +1,5 @@
 package com.techyourchance.unittestingfundamentals.example2;
 
-import com.sun.istack.internal.Nullable;
-
 public class StringReverser {
 
     public String reverse(String string) {
