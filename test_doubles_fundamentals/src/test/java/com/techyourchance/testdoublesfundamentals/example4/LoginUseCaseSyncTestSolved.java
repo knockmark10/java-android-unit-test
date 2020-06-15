@@ -42,6 +42,13 @@ public class LoginUseCaseSyncTestSolved {
     }
 
     @Test
+    public void loginSync_success_someTestCase() throws Exception {
+        // Arrange
+        // Act
+        // Assert
+    }
+
+    @Test
     public void loginSync_success_authTokenCached() throws Exception {
         SUT.loginSync(USERNAME, PASSWORD);
         assertThat(mAuthTokenCacheTd.getAuthToken(), is(AUTH_TOKEN));
