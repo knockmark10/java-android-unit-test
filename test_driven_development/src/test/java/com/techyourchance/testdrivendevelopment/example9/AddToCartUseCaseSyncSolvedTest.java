@@ -22,7 +22,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
-public class AddToCartUseCaseSyncTestSolved {
+public class AddToCartUseCaseSyncSolvedTest {
 
     // region constants ----------------------------------------------------------------------------
 

@@ -14,7 +14,7 @@ import static org.junit.Assert.assertThat;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
-public class PingServerSyncUseCaseTestSolved {
+public class PingServerSyncUseCaseSolvedTest {
 
     // region constants ----------------------------------------------------------------------------
     // endregion constants -------------------------------------------------------------------------
