@@ -1,0 +1,20 @@
+Description:
+Your goal is to implement AddToCartUseCaseSync class using TDD.
+
+The requirements:
+1) You should use AddToCartHttpEndpointSync interface as dependency injected from constructor
+2) You should add a method called addToCartSync to add items to the cart
+3) If server answers with SUCCESS, SUCCESS result must be returned
+4) If server returns any kind of error, FAILURE result must be returned
+
+You should:
+1) Create a new implementation of the class WITHOUT writing any actual functionality.
+2) Create a new test class for your implementation.
+3) Write all the required tests.
+4) Run the tests and ensure that all of them fail.
+5) Write the required production code.
+6) Run the tests and ensure that all of them pass. Debug if necessary.
+7) Refactor the production code for readability and maintainability.
+8) Refactor the test code for readability and maintainability.
+9) Assign your implementation to SUT in the class FetchUserUseCaseSyncTestRef.
+10) Ensure that all reference tests pass. Debug if necessary.
